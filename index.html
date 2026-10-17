@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Web - Notícias de Hoje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="pagina">
+
+    <header id="cabecalho">
+        <h1>Jornal Web</h1>
+        <p class="slogan">As principais notícias do dia, em um só lugar.</p>
+
+        <div class="acessibilidade">
+            <button onclick="aumentarFonte()" aria-label="Aumentar tamanho da fonte">A+</button>
+            <button onclick="diminuirFonte()" aria-label="Diminuir tamanho da fonte">A-</button>
+            <button onclick="alternarContraste()" aria-pressed="false" id="botaoContraste">
+                Alto contraste
+            </button>
+        </div>
+    </header>
+
+    <nav id="menu" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#economia">Economia</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#esportes">Esportes</a>
+    </nav>
+
+    <main id="inicio">
+
+        <article class="noticia" id="economia">
+            <h2>Economia brasileira mostra sinais de recuperação</h2>
+            <p class="data">Publicado em 09/10/2025</p>
+
+            <img
+                src="https://cdls.org.br/wp-content/uploads/cdlce_base/2021/08/265919-redator-entregar-ate-2812-as-10heconomia-mundial-quais-sao-as-10-tendencias-para-os-proximos-anos.jpg"
+                alt="Imagem ilustrativa sobre economia"
+            >
+
+            <p>
+                A economia brasileira começa a mostrar sinais de recuperação,
+                impulsionada pelo crescimento das exportações de produtos
+                agrícolas, incluindo o morango do amor.
+            </p>
+
+            <p>
+                O aumento das vendas para outros países pode contribuir para
+                a geração de empregos e movimentar a economia brasileira.
+                Esses resultados mostram como diferentes setores podem
+                encontrar novas oportunidades no mercado internacional.
+            </p>
+        </article>
+
+        <article class="noticia" id="tecnologia">
+            <h2>Tecnologia: avanços em Inteligência Artificial</h2>
+            <p class="data">Publicado em 09/10/2025</p>
+
+            <img
+                src="https://br24.io/wp-content/uploads/2023/01/chatgpt.png"
+                alt="Ilustração relacionada à inteligência artificial"
+            >
+
+            <p>
+                A inteligência artificial está cada vez mais presente
+                na educação e no cotidiano. Essas ferramentas conseguem
+                auxiliar na pesquisa, na análise de textos e na resolução
+                de problemas.
+            </p>
+
+            <p>
+                Apesar dos benefícios, o uso da inteligência artificial
+                também levanta questões sobre ética, aprendizagem e
+                responsabilidade acadêmica. O desafio é utilizar essas
+                tecnologias sem deixar de desenvolver o conhecimento humano.
+            </p>
+        </article>
+
+        <article class="noticia" id="esportes">
+            <h2>Esportes: seleção vence semifinal por 2 a 1</h2>
+            <p class="data">Publicado em 09/10/2025</p>
+
+            <img
+                src="https://imagens.ebc.com.br/CXt8Xye-cHBQxiTettb2b0unX6M=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/selecao_brasileira_2022_pre_mundial.jpg?itok=_Hbw8MBs"
+                alt="Jogadores da seleção brasileira de futebol"
+            >
+
+            <p>
+                O futebol brasileiro continua despertando a paixão dos
+                torcedores. Em uma partida emocionante, a equipe conseguiu
+                uma vitória por 2 a 1 e garantiu a classificação para a final.
+            </p>
+
+            <p>
+                Agora, a expectativa fica para a próxima partida, que promete
+                reunir torcedores e muita emoção. A preparação da equipe
+                será importante para buscar mais uma vitória.
+            </p>
+        </article>
+
+    </main>
+
+    <footer id="rodape">
+        <p>&copy; 2026 Jornal Web - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
